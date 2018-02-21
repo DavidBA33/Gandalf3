@@ -1,0 +1,54 @@
+.container
+{
+    position: relative;
+    width: 500px;	
+}
+
+.container .caption
+{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	color: black;
+	font-family: arial;
+	font-size: 2.3em;
+	text-align: center;
+	width: 450px;
+	height: 100px;
+	padding-top: 20px;
+	background: white;
+	border-radius: 10px;
+	opacity: 0.8;
+
+}
+.mille
+{
+	color: #E55C17;
+}
+.nom {
+    position: fixed;
+    bottom: 400px;
+    font-size: 4em;
+    color: white;
+    width: 500px;
+    text-align: center;
+    font-family: arial;
+}
+
+.image_gandalf
+{
+	opacity: 0.6;
+}
+
+.container:hover .image_gandalf {
+	opacity: 1;
+}
+
+.container:hover .caption {
+	z-index: -100;
+}
+
+.container:hover .nom {
+	font-size: 2em;
+    bottom: 250px;
+}
